@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xyrus – AI-Powered Veterinary Platform</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #3b82f6;
+        --text: #111827;
+        --muted: #6b7280;
+        --bg: #ffffff;
+        --accent-bg: #f9fafb;
+        --card-radius: 10px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+      }
+
+      header {
+        background: linear-gradient(to bottom, #eff6ff, #ffffff);
+        padding: 3.5rem 1rem 2.5rem;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+
+      header h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--text);
+        margin: 1rem 0;
+      }
+
+      header p {
+        max-width: 640px;
+        margin: 0 auto 2rem;
+        color: var(--muted);
+        font-size: 1.1rem;
+      }
+
+      .cta-button {
+        background-color: var(--primary);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      section {
+        max-width: 960px;
+        margin: 3rem auto;
+        padding: 0 1rem;
+      }
+
+      section h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      section p.section-desc {
+        max-width: 700px;
+        margin: 0 auto 2rem;
+        text-align: center;
+        color: var(--muted);
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .feature-card {
+        background-color: var(--accent-bg);
+        border-radius: var(--card-radius);
+        padding: 1.5rem;
+        border: 1px solid #e5e7eb;
+      }
+
+      .feature-card h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--primary);
+      }
+
+      .feature-card p {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .columns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+      }
+
+      .columns h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+      }
+
+      .columns p {
+        font-size: 1rem;
+        color: var(--muted);
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      footer {
+        background-color: #f1f5f9;
+        padding: 2rem 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-top: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Xyrus</h1>
+      <h2>AI-Powered Veterinary Platform</h2>
+      <p>
+        Spend less time on paperwork and more time with pets. Xyrus brings
+        intelligent automation to veterinary practices—so your team can breathe
+        easier and care better.
+      </p>
+    </header>
+
+    <section>
+      <h2>About Xyrus</h2>
+      <p class="section-desc">
+        Xyrus isn’t just software—it’s your clinic’s AI-powered command center.
+        From the moment a pet owner books an appointment to long after their
+        visit, Xyrus automates, learns, and adapts to make your practice more
+        responsive, reliable, and relaxed.
+      </p>
+      <h2>Core Features</h2>
+      <div class="features">
+        <div class="feature-card">
+          <h3>Smart Scheduling</h3>
+          <p>
+            Intelligently fills your schedule with the right appointments at the
+            right times—learning from your daily rhythms to minimize downtime
+            and eliminate chaos.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>AI Medical Assistant</h3>
+          <p>
+            Xyrus captures details as you work, auto-generates precise notes,
+            and gently guides care decisions with real-time clinical insights.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Client Communication</h3>
+          <p>
+            Keep clients in the loop with automated, empathetic messaging that
+            mimics a human touch—without lifting a finger.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Billing & Inventory</h3>
+          <p>
+            Seamlessly handles billing, flags unusual activity, and restocks
+            inventory before your shelves even notice.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Telehealth Ready</h3>
+          <p>
+            Telehealth reimagined: smart video visits with auto-transcripts,
+            treatment summaries, and ready-to-share notes for clients.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Pet Owner Portal</h3>
+          <p>
+            Empower pet parents with 24/7 access to tailored health updates,
+            secure messaging, and records—all beautifully presented.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="columns">
+        <div>
+          <h3>Why Xyrus</h3>
+          <p>
+            Too many tasks. Too little time. Xyrus steps in as your digital
+            teammate—handling the routine, flagging the urgent, and freeing your
+            staff to focus on what they do best: caring.
+          </p>
+        </div>
+        <div>
+          <h3>Who We're For</h3>
+          <p>
+            Xyrus scales with your ambition. From boutique practices to
+            expanding clinics, it molds to your needs and grows as you do.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>&copy; 2025 Xyrus Holdings Inc. All rights reserved.</footer>
+  </body>
+</html>
